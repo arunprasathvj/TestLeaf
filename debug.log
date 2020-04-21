@@ -1,0 +1,14 @@
+[0407/182413.160:ERROR:process_info.cc(359)] UncheckedAllocate
+[0407/182551.421:ERROR:file_io_win.cc(161)] CreateFile C:\Users\Anadh\AppData\Local\Temp\scoped_dir8016_17442\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0407/182551.421:ERROR:file_io_win.cc(170)] CreateFile C:\Users\Anadh\AppData\Local\Temp\scoped_dir8016_17442\Crashpad\reports\c11947bb-1566-4075-95d2-7bb170fcbf7c.dmp: The system cannot find the path specified. (0x3)
+[0407/182551.421:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0408/162848.167:ERROR:process_info.cc(359)] UncheckedAllocate
+[0408/162848.167:ERROR:process_info.cc(359)] UncheckedAllocate
+[0415/164812.959:ERROR:process_info.cc(359)] UncheckedAllocate
+[0416/211903.491:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144218.830:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144223.908:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144224.314:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144224.642:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144226.720:ERROR:process_info.cc(359)] UncheckedAllocate
+[0417/144227.551:ERROR:process_info.cc(359)] UncheckedAllocate

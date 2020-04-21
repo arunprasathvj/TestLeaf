@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="InetBanking_V1" parallel="classes" thread-count="3">
+
+<listeners>
+<listener class-name = "fc_Utills.Reporting"/>
+
+</listeners>
+<test name ="My Test">
+<parameter name ="browser" value ="chrome"/>
+
+
+<classes>
+
+<class name="fc_TestCases.fc_TC_001"/>
+<class name = "fc_TestCases.TC_Dataprovider_001"/>
+<class name = "fc_TestCases.TC_Filldetails_003"/>
+
+
+
+
+
+
+</classes>
+
+
+
+
+
+</test>
+
+</suite>
+
+
+
+
+

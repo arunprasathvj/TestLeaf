@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBanking_V1" duration-ms="165595" started-at="2020-04-21T10:35:13Z" finished-at="2020-04-21T10:37:58Z">
+    <groups>
+    </groups>
+    <test name="My Test" duration-ms="165595" started-at="2020-04-21T10:35:13Z" finished-at="2020-04-21T10:37:58Z">
+      <class name="fc_TestCases.TC_Filldetails_003">
+        <test-method status="PASS" signature="filldetails()[pri:0, instance:fc_TestCases.TC_Filldetails_003@1560810]" name="filldetails" duration-ms="164450" started-at="2020-04-21T16:05:13Z" finished-at="2020-04-21T16:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetails -->
+      </class> <!-- fc_TestCases.TC_Filldetails_003 -->
+      <class name="fc_TestCases.TC_Dataprovider_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:fc_TestCases.TC_Dataprovider_001@1afa04c]" name="setup" is-config="true" duration-ms="62739" started-at="2020-04-21T16:05:13Z" finished-at="2020-04-21T16:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Logintest(java.lang.String, java.lang.String)[pri:0, instance:fc_TestCases.TC_Dataprovider_001@1afa04c]" name="Logintest" duration-ms="59424" started-at="2020-04-21T16:06:22Z" data-provider="testdata" finished-at="2020-04-21T16:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="Logintest(java.lang.String, java.lang.String)[pri:0, instance:fc_TestCases.TC_Dataprovider_001@1afa04c]" name="Logintest" duration-ms="7478" started-at="2020-04-21T16:07:22Z" data-provider="testdata" finished-at="2020-04-21T16:07:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:fc_TestCases.TC_Dataprovider_001@1afa04c]" name="teardown" is-config="true" duration-ms="949" started-at="2020-04-21T16:07:57Z" finished-at="2020-04-21T16:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- fc_TestCases.TC_Dataprovider_001 -->
+      <class name="fc_TestCases.fc_TC_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:fc_TestCases.fc_TC_001@756e4d]" name="setup" is-config="true" duration-ms="42811" started-at="2020-04-21T16:05:13Z" finished-at="2020-04-21T16:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_001()[pri:0, instance:fc_TestCases.fc_TC_001@756e4d]" name="TC_001" duration-ms="38594" started-at="2020-04-21T16:05:55Z" finished-at="2020-04-21T16:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:fc_TestCases.fc_TC_001@756e4d]" name="teardown" is-config="true" duration-ms="1608" started-at="2020-04-21T16:06:34Z" finished-at="2020-04-21T16:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- fc_TestCases.fc_TC_001 -->
+    </test> <!-- My Test -->
+  </suite> <!-- InetBanking_V1 -->
+</testng-results>

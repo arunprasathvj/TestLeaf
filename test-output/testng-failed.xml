@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [InetBanking_V1]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="fc_Utills.Reporting"/>
+  </listeners>
+  <test name="My Test(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="fc_TestCases.fc_TC_001">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="TC_001"/>
+        </methods>
+      </class> <!-- fc_TestCases.fc_TC_001 -->
+      <class name="fc_TestCases.TC_Filldetails_003">
+        <methods>
+          <include name="filldetails"/>
+        </methods>
+      </class> <!-- fc_TestCases.TC_Filldetails_003 -->
+      <class name="fc_TestCases.TC_Dataprovider_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="Logintest" invocation-numbers="0 1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- fc_TestCases.TC_Dataprovider_001 -->
+    </classes>
+  </test> <!-- My Test(failed) -->
+</suite> <!-- Failed suite [InetBanking_V1] -->
